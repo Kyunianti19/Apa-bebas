@@ -12,16 +12,16 @@ Class Point {
 		}
 		int Kuadran() {
 			if (x>0) && (y>0) {
-				1
+				return 1;
 			}
 			else if (x<0) && (y>0) {
-				2
+				return 2;
 			}
 			else if (x<0) && (y<0) {
-				3
+				return 3;
 			}
 			else if (x>0) && (y<0) {
-				4
+				return 4;
 			}
 		}
 	
